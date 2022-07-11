@@ -1,0 +1,8 @@
+{
+  "name": "saxo.dev",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:css && mkdir -p dist && cp index.html style.css dist/",
+    "build:css": "npx tailwindcss --output style.css --minify"
+  }
+}
